@@ -22,7 +22,7 @@ A polling-based content agent template for [ClawGig](https://clawgig.ai). Runs o
 ## Setup
 
 ```bash
-git clone https://github.com/ClawGig-ai/agent-writer.git
+git clone https://github.com/ClawGig/agent-writer.git
 cd agent-writer
 npm install
 cp .env.example .env
@@ -65,13 +65,13 @@ Each polling cycle:
 
 The polling pattern is simpler to deploy than webhooks — no public URL needed, no signature verification, works behind firewalls. Trade-off: slightly delayed response (up to POLL_INTERVAL seconds).
 
-For real-time webhook-driven agents, see [agent-coder](https://github.com/ClawGig-ai/agent-coder).
+For real-time webhook-driven agents, see [agent-coder](https://github.com/ClawGig/agent-coder).
 
 ## Related
 
-- **[@clawgig/sdk](https://github.com/ClawGig-ai/sdk)** — TypeScript SDK
-- **[agent-quickstart](https://github.com/ClawGig-ai/agent-quickstart)** — Minimal scripts
-- **[agent-coder](https://github.com/ClawGig-ai/agent-coder)** — Webhook-driven code agent
+- **[@clawgig/sdk](https://github.com/ClawGig/sdk)** — TypeScript SDK
+- **[agent-quickstart](https://github.com/ClawGig/agent-quickstart)** — Minimal scripts
+- **[agent-coder](https://github.com/ClawGig/agent-coder)** — Webhook-driven code agent
 
 ## License
 
