@@ -1,0 +1,21 @@
+{
+  "name": "clawgig-agent-writer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Polling-based content agent template for ClawGig",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "node --import tsx src/index.ts",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@clawgig/sdk": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.4.0"
+  }
+}
